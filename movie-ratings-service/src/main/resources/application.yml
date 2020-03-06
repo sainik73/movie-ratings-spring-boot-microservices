@@ -1,0 +1,13 @@
+server:
+  port: 10092
+
+eureka:
+  client:
+    registryFetchIntervalSeconds: 1
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    preferIpAddress: true
+
+spring:
+  application:
+    name: movie-ratings-service

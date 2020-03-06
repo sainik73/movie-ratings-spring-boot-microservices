@@ -1,0 +1,23 @@
+server:
+  port: 10090
+
+eureka:
+  client:
+    registryFetchIntervalSeconds: 1
+  instance:
+    leaseRenewalIntervalInSeconds: 1
+    preferIpAddress: true
+
+spring:
+  application:
+    name: movie-catalog-service
+
+#custom properties
+ds:
+  movie:
+    info:
+      service:
+        name: movie-info-service
+    ratings:
+      service:
+        name: movie-ratings-service
