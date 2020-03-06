@@ -2,6 +2,7 @@ package com.example.spring.movie.resource;
 
 import com.example.spring.movie.model.Rating;
 import com.example.spring.movie.model.UserRating;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

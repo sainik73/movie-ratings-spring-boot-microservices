@@ -9,6 +9,7 @@ public class UserRating {
     private String userId;
     private List<Rating> ratings;
 
+
     //Default Constructor
     public UserRating(){}
 
